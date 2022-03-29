@@ -37,9 +37,8 @@
                 <table class="table-responsive table table-striped">
                     <thead>
                         <tr>
-                            <th>
-                                Cursos
-                            </th>
+                            <th>#</th>
+                            <th>Cursos</th>
                             <th>Creditos</th>
                         </tr>
                     </thead>
@@ -47,6 +46,7 @@
 
                         {% for c in cursos %}
                         <tr>
+                            <td>{{ c.id }}</td>
                             <td>{{ c.name }}</td>
                             <td>{{ c.credits }}</td>
                         </tr>
