@@ -1,4 +1,3 @@
-from unicodedata import name
 from django.views.generic import ListView
 from django.shortcuts import redirect, render
 from .models import Course
